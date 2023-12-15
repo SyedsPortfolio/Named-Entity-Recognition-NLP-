@@ -17,8 +17,10 @@ The Named Entity Recognition task attempts to correctly detect and classify text
 
 ## Step-by-step approach
 - Imported necessary Python libraries and Dataset
-- Checked for null values
-- Performed **EDA**
-- Conducted Data Exploration by visualizing **box-plots** of credit scores based on occupation, annual salary, monthly inhand salary, number of bank accounts, number of credit cards, average interest rates, number of loans taken, days delayed for credit card payments, number of delayed payments, number of outstanding debt, credit utilization ratio, credit history age, total number of EMI's per month, amount invested monthly, monthly balance left.
-- Created a Credit Mix column categorically by transforming it into numerical feature so that we can use it to train a Machine Learning model for the task of credit score classification
-- Split the data into training and test sets and proceed further by training a credit score classific
+- Performed data modification and data transformation to prepare the data for a neural network
+- Divided the data for training and testing
+- Created a function to split the data as LSTM layers only accept sequences of the same length. Thus, each sentence that appears as an integer in the data must be completed with the same length
+- Now we import packages like Tensorflow and Keras to train our neural network
+- Built layers that will take the dimensions of the LSTM layer and give the maximum length and maximum tags as output
+- Create a helper function that will help us to give the summary of each layer of the neural network model for the task of recognizing named entities with Python
+- Finally I will use the spacy library in Python to test our NER model. I will add input of some lines about my self and let’s see what we will get after running the code
