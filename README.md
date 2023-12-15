@@ -24,3 +24,10 @@ The Named Entity Recognition task attempts to correctly detect and classify text
 - Built layers that will take the dimensions of the LSTM layer and give the maximum length and maximum tags as output
 - Create a helper function that will help us to give the summary of each layer of the neural network model for the task of recognizing named entities with Python
 - Finally I will use the spacy library in Python to test our NER model. I will add input of some lines about my self and let’s see what we will get after running the code
+
+# Output
+![Screenshot (2433)](https://github.com/SyedsProjectPortfolio45/Named-Entity-Recognition-NLP-/assets/147240839/bf504a5b-fcae-4b26-b741-1736da345461)
+
+
+
+
