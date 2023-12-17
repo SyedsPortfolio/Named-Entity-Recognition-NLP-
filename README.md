@@ -8,7 +8,7 @@
 ## 🚧You see the detailed code with visualizations by clicking on the Google Colab logo when you open the ipynb file
 
 # Objective
-The aim is to build a ML model that tries to recognize and classify multi-word phrases with special meaning, e.g. people, organizations, places, dates, etc.
+The aim is to build a Machine Learning model that tries to recognize and classify multi-word phrases with special meaning, e.g. people, organizations, places, dates, etc.
 
 # How it works
 For example, we want to monitor the news for mentions of Covid-19 patients and for each patient we need the name of the responsible medical organization, location and date.
