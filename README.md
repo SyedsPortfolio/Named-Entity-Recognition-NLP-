@@ -5,7 +5,7 @@
 #### Tools used🛠: Python, ML, NLP, NumPy, Pandas, Sk-learn, TensorFlow, Keras, spaCy
 🔗dataset link -->https://raw.githubusercontent.com/amankharwal/Website-data/master/ner_dataset.csv 
 
-## 🚧You see the detailed code with visualizations by clicking on the Google Colab logo when you open the ipynb file
+## 🚧You can see the detailed code with visualizations by clicking on the Google Colab logo when you open the ipynb file
 
 # Objective
 The aim is to build a Machine Learning model that tries to recognize and classify multi-word phrases with special meaning, e.g. people, organizations, places, dates, etc.
